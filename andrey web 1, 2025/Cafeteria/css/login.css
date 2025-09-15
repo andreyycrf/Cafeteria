@@ -1,5 +1,15 @@
+
+
+img {
+    width: 300px;
+      height: auto;
+      margin-bottom: 30px;
+      user-select: none;
+}
+
+
 body {
-    background-color: #d1a366;
+    background-color: #886f4e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +24,8 @@ body {
     border-radius: 12px;
     padding: 120px 40px;
     text-align: center;
-    width: 240px;
-    max-width: 90vw;
-    border: 2px solid #d1a366;
+    width: 100%;
+    max-width: 400px;
 }
 
 h2 {
@@ -36,10 +45,11 @@ input{
 
 label {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
 }
 
 button {
+    
     background-color: #a85e00;
       color: #fef4e4;
       font-size: 1.4rem;

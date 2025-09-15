@@ -10,20 +10,33 @@ header {
   color: #fef4e4;
  
 }
+.menu {
+  text-align: center;
+  margin: 4px auto;
+  background-color: #50483e;
+  font-size: 20px;
+  border-radius: 20px;
+}
 main {
   background-color: #d1a366;
+  padding-bottom: 200px;
   
 }
 
 footer {
   background-color: #ccb598;
+  font-size: 1.2rem;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
 }
+
 
 a {
   color: hsl(35, 8%, 46%);
   text-decoration: none;
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale-+(1.05);
   transition: transform 0.3s ease;
   outline: none;
   margin-left: 144px;
@@ -40,6 +53,7 @@ a {
   font-size: 2rem;
   margin-bottom: 25px;
   color: #a85e00;
+  
 }
 #gallery h3 {
   text-align: center;
@@ -70,10 +84,3 @@ a {
   outline: none;
 }
 
-
-footer {
-  font-size: 1.2rem;
-      justify-content: center;
-      text-align: center;
-      flex-wrap: nowrap;
-}
